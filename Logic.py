@@ -150,7 +150,7 @@ class Logic:
 
         # If key is math. operator except "=" and "-" as negative number sign  and if something is in entry
         if key in self._OPERATORS[2:] and len(currtext)!=0 and (currtext != self._OPERATORS[-3] or self.operator_active):          
-            print("x")
+
             if currtext not in self._OPERATORS:
                 self.equal_sign = False
                 if not self.symbol_streak:
