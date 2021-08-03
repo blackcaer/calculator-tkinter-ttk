@@ -1,6 +1,6 @@
 import sys
 sys.path.append('.\src')
-sys.path.append('E : \programowanie\Python\PythonApplication1\PythonApplication1\calculator\src')
+#sys.path.append('E : \programowanie\Python\PythonApplication1\PythonApplication1\calculator\src')
 
 import tkinter as tk
 from ttkbootstrap import Style as StyleBs
